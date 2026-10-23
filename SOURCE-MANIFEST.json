@@ -8,6 +8,10 @@
     "sha256": "97e4cafa64d6fddda3f5af5e11420bcb60330b75a6f6420f406f5bc38854ac07"
   },
   {
+    "path": "BUILD-STATUS.md",
+    "sha256": "f605a12f39d1ccaed39d5e53d88235d24448d58eb67f7f4cd36fb7e7f23a4205"
+  },
+  {
     "path": "build.sh",
     "sha256": "6b5f1dce9b4666dd81c93197ca8880dc8fd8da40fca68488bcd11a95d5444be4"
   },
@@ -21,7 +25,7 @@
   },
   {
     "path": "README.md",
-    "sha256": "b04216e7ff8bdbec15c03de880dc2221ebf4b74d1447c2d997a8085f9b5567aa"
+    "sha256": "e64015ba6d3b782d4ab3536a504e171f3c1a591d654d952f323922abf922a1e1"
   },
   {
     "path": "Resources/config.json",
