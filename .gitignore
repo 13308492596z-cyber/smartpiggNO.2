@@ -1,0 +1,6 @@
+build/
+.DS_Store
+*.mobileprovision
+*.p12
+*.p8
+*.plist.bak

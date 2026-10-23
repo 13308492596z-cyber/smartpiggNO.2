@@ -1,0 +1,26 @@
+{
+  "name": "手机路线测试 · 长按或点击地图规划路线",
+  "center": [
+    35,
+    105
+  ],
+  "zoom": 4,
+  "default_tile": "esri",
+  "route": [],
+  "tiles": [
+    {
+      "key": "osm",
+      "name": "街道图",
+      "url": "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+      "maxZoom": 19,
+      "attribution": "© <a href=\"https://www.openstreetmap.org/copyright\">OpenStreetMap</a> contributors"
+    },
+    {
+      "key": "esri",
+      "name": "卫星图",
+      "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",
+      "maxZoom": 19,
+      "attribution": "Tiles © Esri — Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community"
+    }
+  ]
+}

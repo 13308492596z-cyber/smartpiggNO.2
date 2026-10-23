@@ -1,0 +1,118 @@
+[
+  {
+    "path": ".github/workflows/build-ios.yml",
+    "sha256": "b47d75ff243753d078cfec838130f6b40d227b515e3e60b30e3b6cccf988739e"
+  },
+  {
+    "path": ".gitignore",
+    "sha256": "97e4cafa64d6fddda3f5af5e11420bcb60330b75a6f6420f406f5bc38854ac07"
+  },
+  {
+    "path": "build.sh",
+    "sha256": "6b5f1dce9b4666dd81c93197ca8880dc8fd8da40fca68488bcd11a95d5444be4"
+  },
+  {
+    "path": "entitlements.plist",
+    "sha256": "10beb5581b7c0c09646ecae467b42ec5f53b92fbe9578819c8a65043cdce4cd3"
+  },
+  {
+    "path": "LICENSE",
+    "sha256": "c7e1f16f3b6611b7d5d124727000c1c2bd07728c31f0d1cd8a1bb3ccdabd8d3d"
+  },
+  {
+    "path": "README.md",
+    "sha256": "b04216e7ff8bdbec15c03de880dc2221ebf4b74d1447c2d997a8085f9b5567aa"
+  },
+  {
+    "path": "Resources/config.json",
+    "sha256": "fde7e86f790847c479dc9f6d4d171d7438ecce3a3be68d9fe2319b4b2b41a759"
+  },
+  {
+    "path": "Resources/Info.plist",
+    "sha256": "a47bff6fa2199c7de43b1141d9be12285055396e06bf402dcf65a096227a1316"
+  },
+  {
+    "path": "Resources/web/app.js",
+    "sha256": "bcf5f337cf0864d35f9237f9a6526492cec84ef913e97e3018d804c9d433ffcd"
+  },
+  {
+    "path": "Resources/web/index.html",
+    "sha256": "924f73dee907fe20c12421ea21acda56dffbb83b51f31a7f16beb396693e16d6"
+  },
+  {
+    "path": "Resources/web/native-bridge.js",
+    "sha256": "ac9d388f59f7989108158c87f30b9bbbc7a1e2a53dfbed850177bb24498543f6"
+  },
+  {
+    "path": "Resources/web/style.css",
+    "sha256": "8d5e2099f585cbd05ba5be2485e0bfc990bb65a856d5925f5303f78c3ffba442"
+  },
+  {
+    "path": "Resources/web/vendor/Leaflet-LICENSE.txt",
+    "sha256": "53e8dc25862014e4324741ca18fbe3611e11d42ef69f59f86ea8c5389647d4cb"
+  },
+  {
+    "path": "Resources/web/vendor/leaflet.css",
+    "sha256": "a7837102824184820dfa198d1ebcd109ff6d0ff9a2672a074b9a1b4d147d04c6"
+  },
+  {
+    "path": "Resources/web/vendor/leaflet.js",
+    "sha256": "db49d009c841f5ca34a888c96511ae936fd9f5533e90d8b2c4d57596f4e5641a"
+  },
+  {
+    "path": "Sources/App.m",
+    "sha256": "bfbf1457e853fdfa6cfe99328f1427b8afdd5117e971f8b3892a37d0d7dec241"
+  },
+  {
+    "path": "Sources/RouteMath.c",
+    "sha256": "3021293b6ab66d4bd4fac318709d05c3f1909cc8f577ada5e94931c06d3a7bd9"
+  },
+  {
+    "path": "Sources/RouteMath.h",
+    "sha256": "3c5650ebbc7d6ade7cd55520d7e5b8464942362d4f1aa886f6d2029c0b4c2c38"
+  },
+  {
+    "path": "Sources/RoutePlan.h",
+    "sha256": "2253118032e874d2cd12301b26a4395b47c3f37c3a271ccd4dd5caaaa668772a"
+  },
+  {
+    "path": "Sources/RoutePlan.m",
+    "sha256": "1e83c159c9973c80c87c844fdaa0ea72e451f1a7873ec7102abccffc43be2e8d"
+  },
+  {
+    "path": "Sources/SimulationController.h",
+    "sha256": "356278b22bc26ab259af2569b6c7567a283cef693235ba44464bfb171d29891c"
+  },
+  {
+    "path": "Sources/SimulationController.m",
+    "sha256": "bac5162736bff192b75bd8c632d75bc106ceaef8c81e89baa8e7e2b5368c2c1b"
+  },
+  {
+    "path": "tests/native-bridge.test.cjs",
+    "sha256": "3880aac82e8350a5d09973e315c5e1c45e1aa143b9a0ee7d2da14bfdbd8b2fd9"
+  },
+  {
+    "path": "tests/RouteMathTests.c",
+    "sha256": "76acd98b9d7089998094415ae07af267485dfdf1e0e514ebaf25b769064f3e98"
+  },
+  {
+    "path": "THIRD-PARTY.md",
+    "sha256": "31efc9b02059fd5c8667e7bfdd3fd310dd032bcf9d29d3cb4452cef9ab5ebc3e"
+  },
+  {
+    "path": "Vendor/locsim/LICENSE",
+    "sha256": "c7e1f16f3b6611b7d5d124727000c1c2bd07728c31f0d1cd8a1bb3ccdabd8d3d"
+  },
+  {
+    "path": "Vendor/locsim/LSMGPXParserDelegate.h",
+    "sha256": "ee1b64119f2e866437db6f9f039ee7f921c785cc9788a88ccbcb65cf601b5626"
+  },
+  {
+    "path": "Vendor/locsim/LSMGPXParserDelegate.m",
+    "sha256": "38c21bebdb060950920f3dac2e32e66aa1675edc914541072297b814882a77a7"
+  },
+  {
+    "path": "Vendor/locsim/macros.h",
+    "sha256": "6847822ffce8a6158577e9271d79dedd65879fe0ee8a86e61c0beea670cd610b"
+  }
+]

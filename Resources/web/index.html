@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>行迹 · 手机路线测试</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%2323624a'/%3E%3Cpath d='M8 24V8h16M16 8v16h8' fill='none' stroke='white' stroke-width='3'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="vendor/leaflet.css"><link rel="stylesheet" href="style.css">
+  <script defer src="vendor/leaflet.js"></script><script defer src="native-bridge.js"></script><script defer src="app.js"></script>
+</head>
+<body>
+  <header><a class="brand" href="index.html">行迹</a><h1>手机路线测试</h1><button id="device" title="刷新本机状态"><span class="dot"></span><span id="device-name">检查本机接口</span></button></header>
+  <main>
+    <aside aria-label="路线与模拟控制">
+      <section class="planner">
+        <h2>规划路线</h2>
+        <label for="center-lat">地图中心（纬度, 经度）</label>
+        <div class="center-row"><input id="center-lat" aria-label="地图中心纬度" type="number" step="any"><input id="center-lon" aria-label="地图中心经度" type="number" step="any"><button class="green compact" id="go">前往</button></div>
+        <div class="trio"><button id="undo">撤销</button><button id="close">闭合</button><button id="clear">清空</button></div>
+        <div class="length"><span>路线长度</span><strong id="route-length">—</strong></div>
+        <div class="pair"><label>目标距离（米）<input id="meters" type="number" value="1000" min="1" max="10000" step="10"></label><label>总时长（分钟）<input id="minutes" type="number" value="10" min="0.02" max="60" step="0.1"></label></div>
+        <p id="pace" class="sync-note"></p>
+        <details><summary>导入坐标</summary><p>每行“纬度,经度”，使用 WGS84。</p><textarea id="coordinates" rows="5" aria-label="WGS84 路线坐标" placeholder="0,0&#10;0,0.001"></textarea><div class="pair"><button id="import">应用坐标</button><button id="export">导出 GPX</button></div></details>
+      </section>
+      <section class="controls">
+        <button id="preview" class="outline wide">预览路线</button>
+        <button id="anchor" class="outline wide">定位到起点</button>
+        <button id="start" class="green wide">倒计时 10 秒开始</button>
+        <p class="sync-note">先在地图核对起点。倒计时结束后可切换到测试应用；切换期间的系统回放需实机验证。</p>
+        <h3 id="phase">未开始</h3>
+        <div class="progress-label">计划进度 <span id="distance">0 / 1000</span> 米</div>
+        <div class="progress-row"><progress id="progress" max="100" value="0"></progress><span id="percent">0%</span></div>
+        <div class="pair"><button id="pause" disabled>暂停</button><button id="resume" disabled>继续</button></div>
+        <button id="restore" class="wide">恢复真实定位</button>
+      </section>
+    </aside>
+    <section class="map-region" aria-label="在地图上选择路线">
+      <div id="map"></div>
+      <div class="map-top"><span id="campus-name"></span><select id="tiles" aria-label="地图底图"><option value="osm">街道图</option></select></div>
+      <div id="map-notice" hidden role="status"></div>
+      <div class="map-hint">点击地图添加路线点，点间按直线连接。</div>
+    </section>
+  </main>
+  <footer role="status"><span id="message">正在加载地图与设备状态…</span></footer>
+</body>
+</html>
